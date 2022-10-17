@@ -61,6 +61,7 @@ public class CreateCampaignTest extends BaseClass{
 		cp.campaignNameTextField(data);
 		cp.clickSaveButton();
 		cp.titleVerification(data);
+		System.out.println("Work Finished");
 		//hm.signOut();
 		//driver.close();
 	}
